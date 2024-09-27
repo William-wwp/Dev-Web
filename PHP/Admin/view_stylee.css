@@ -1,0 +1,144 @@
+* {
+    font-family: 'Bree serif', sans-serif;
+    font-size:15px;
+}
+
+body {
+    background-image: url("Images/bg.png");
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    color: #E64812;
+    text-shadow:#FED303 1px 1px 1px;
+    text-align:center;
+}
+
+.header h1 {
+    font-size:60px;
+    
+}
+.entete{
+    font-size: 40px;
+}
+.header .material-symbols-outlined {
+    color: #FED303;
+    vertical-align: -5px; 
+    font-size:55px;
+}
+
+.hold {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 3%;
+    width:60%;
+    font-size:40px;
+    padding-bottom:1%;
+    margin-bottom: 2%;
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+    vertical-align: -5px;
+}
+button {
+    border:solid 1px black;
+    font-size:20px;
+    margin-top : 2%;
+}
+
+
+a {
+    border:solid 1px black;
+    font-size:20px;
+    padding:7px;
+    margin-top:10%;
+    
+}
+a:link{
+    text-decoration: none;
+}
+
+.img-thumbnail {
+    padding:1%;
+    margin:3%;
+}
+.img-fluid {
+    background-color: #FED303;
+    border-radius: 3px;
+} 
+
+.price{
+    position:relative;
+    background-color: #59B661;
+    font-size:25px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    margin-left:90%;
+    width: 15%; 
+    text-align: center; 
+    margin-top:-70%;
+    margin-bottom:65%;
+}
+
+.priceboisson{
+    position:relative;
+    background-color: #59B661;
+    font-size:25px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    margin-left:85%;
+    width: 20%; 
+    text-align: center; 
+    margin-top:-85%;
+    margin-bottom:78%;
+}
+.return {
+    background-color: #177bbe;
+    color:white;
+    margin-left:1%;
+    margin-top:5%;
+}
+p {
+    margin-left:2%;
+    margin-top:2%;
+}
+.return:hover {
+    background-color: #1367a0;
+}
+.describe {
+    font-weight: bolder;
+}
+.name {
+    color:#E64812;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase; 
+    margin-left: 3%; 
+}
+.recipe {
+    color:black;
+    text-transform: uppercase;
+    font-size: 18px; 
+    margin-left: 3%; 
+}
+
+.order {
+    background-color: #E64812;
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    width:90%;
+    border:#E64812;
+    font-size:18px;
+}
+
+.hovered:hover{
+    background-color: white;
+    color:#E64812;
+    text-shadow: 1px 1px 1px black ;
+    border-radius: 5px;
+} 
